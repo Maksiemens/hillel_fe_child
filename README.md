@@ -208,3 +208,24 @@ radio
   }
 }
 
+
+
+ "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "~/../css/"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    "**/Work/**",
+    "**/Github/**",
+    "**/Gitlab/**",
+    ".vscode/**"
+  ] ,
+  "liveSassCompile.settings.autoprefix": [
+    "> 1%",
+    "last 2 versions"
+  ]
